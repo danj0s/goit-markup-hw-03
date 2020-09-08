@@ -1,0 +1,177 @@
+:root {
+  --color-accent: #2196f3;
+  --color-headline: #212121;
+  --color-text: #757575;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  list-style: none;
+  font-family: Roboto, sans-serif;
+}
+.content {
+  width: 1170px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigation:hover,
+.navigation:focus {
+  color: var(--color-accent);
+}
+
+.navigation {
+  margin-right: 50px;
+}
+.info {
+  margin-left: 331px;
+}
+.last-child {
+  margin-right: 0px;
+}
+.display {
+  display: flex;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  width: 1170px;
+}
+
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+  text-align: center;
+  padding: 200px 0;
+}
+
+.information {
+  margin-top: 94px;
+}
+.headline-text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.photo {
+  margin-bottom: 94px;
+}
+.photo-container {
+  justify-content: space-between;
+  display: flex;
+}
+.item-photo :not(:last-child) {
+  margin-right: 30px;
+}
+.team {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 54px;
+}
+.team-ul {
+  text-align: center;
+}
+.headline-text-team {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #2f303a;
+  padding: 60px 0px;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+.headline {
+  color: var(--color-headline);
+}
+
+.color-text {
+  color: var(--color-text);
+}
+.contact {
+  color: #757575;
+}
+.adress {
+  color: #ffffff;
+}
+.web {
+  color: #2196f3;
+  font-family: raleway, sans-serif;
+}
+.studio {
+  color: #000000;
+}
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 10px 32px;
+}
+
+/* Портфолио  */
+body {
+  list-style: none;
+}
+hr {
+  border: 1px solid #ececec;
+}
+
+.header {
+  display: flex;
+}
+.header-item {
+  display: flex;
+}
+.site :hover,
+.site :focus {
+  color: #ffffff;
+  background-color: var(--color-accent);
+}
+.site {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+}
+.site :not(:last-child) {
+  margin-right: 8px;
+}
+.ssite {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+.adress-item {
+  margin-bottom: 9px;
+}
+.contact {
+  margin-bottom: 9px;
+}
+
+.add {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1170px;
+
+  margin-top: 50px;
+}
+.add-item {
+  width: calc((100%-60px) / 3);
+  margin-right: 30px;
+}
+.add-item:nth-child(3n) {
+  margin-right: 0;
+}
